@@ -3,12 +3,19 @@ import { Navbar } from 'react-bootstrap';
 import { Container } from 'react-bootstrap';
 import { Nav } from 'react-bootstrap';
 import { NavDropdown } from 'react-bootstrap';
+import ffxvlogo from "..assets/ffxvlogo.png"
+
+
 
 const Header = () => {
     return (
         <Navbar bg="light" expand="lg">
             <Container>
-                <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+                <Navbar.Brand href="#home"> 
+                    <a href="https://finalfantasyxv.square-enix-games.com/"> fdfs
+                    <img src={ffxvlogo} alt="" /></a>
+                    
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
