@@ -1,13 +1,11 @@
-import React from 'react';
+import React from 'react'
+import { Navbar } from 'react-bootstrap';
 import { Container } from 'react-bootstrap';
 import { Nav } from 'react-bootstrap';
 import { NavDropdown } from 'react-bootstrap';
 
-
-
-function Navbar() {
+const Header = () => {
     return (
-
         <Navbar bg="light" expand="lg">
             <Container>
                 <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
@@ -27,7 +25,7 @@ function Navbar() {
                 </Navbar.Collapse>
             </Container>
         </Navbar>
-    );
+    )
 }
 
-export default Navbar
+export default Header
