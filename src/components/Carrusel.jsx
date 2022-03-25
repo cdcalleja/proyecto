@@ -9,7 +9,7 @@ import ffxv5 from '../assets/ffxv5.png';
 const Carrusel = () => {
     return (
         <>
-            <Carousel fade style={{backgroundColor: "black"}}>
+            <Carousel className="d-flex justify-content-center" fade style={{backgroundColor: "black"}}>
                 <Carousel.Item  style={{margin:"auto", width: "auto", height:"auto"}}>
                     <img
                         className="d-flex justify-content-center"
