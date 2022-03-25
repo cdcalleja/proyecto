@@ -21,7 +21,7 @@ const Header = () => {
                     <Nav className="me-auto">
                         <Nav.Link href="#historia" style={{ color: "white" }}>Historia</Nav.Link>
                         <Nav.Link href="#trasfondo" style={{ color: "white" }}>Trasfondo</Nav.Link>
-                        <Nav.Link href="#link" style={{ color: "white" }}>Personajes</Nav.Link>
+                        <Nav.Link href="#personajes" style={{ color: "white" }}>Personajes</Nav.Link>
 
                         {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -30,7 +30,7 @@ const Header = () => {
                             <NavDropdown.Divider />
                             <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
                         </NavDropdown> */}
-                        <Form className='justify-content-end'>
+                        <Form className='d- flex justify-content-end'>
                             <Form.Group className="mb-3" controlId="formBasicEmail">
                                 <Form.Control type="text" placeholder="Search" />
                                 <Button variant="success" type="submit">Search</Button>

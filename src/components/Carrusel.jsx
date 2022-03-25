@@ -12,7 +12,8 @@ const Carrusel = () => {
             <Carousel fade style={{backgroundColor: "black"}}>
                 <Carousel.Item  style={{margin:"auto", width: "auto", height:"auto"}}>
                     <img
-                        className="d-block w-100"
+                        className="d-flex justify-content-center"
+                        // className="d-flex align-items-center"
                         src= {ffxv1}
                         alt="First slide"
                         style={{height: 400}}
