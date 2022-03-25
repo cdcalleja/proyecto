@@ -19,8 +19,8 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="#home" style={{ color: "white" }}>Historia</Nav.Link>
-                        <Nav.Link href="#link" style={{ color: "white" }}>Trasfondo</Nav.Link>
+                        <Nav.Link href="#historia" style={{ color: "white" }}>Historia</Nav.Link>
+                        <Nav.Link href="#trasfondo" style={{ color: "white" }}>Trasfondo</Nav.Link>
                         <Nav.Link href="#link" style={{ color: "white" }}>Personajes</Nav.Link>
 
                         {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
