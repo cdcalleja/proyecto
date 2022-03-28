@@ -8,8 +8,8 @@ import ffxv5 from '../assets/ffxv5.png';
 
 const Carrusel = () => {
     return (
-        <>
-            <Carousel className="d-flex justify-content-center" fade style={{backgroundColor: "black"}}>
+        <div style={{display: "flex", justifyContent: "center", backgroundColor: "black"}}>
+            <Carousel className="d-flex justify-content-center">
                 <Carousel.Item  style={{margin:"auto", width: "auto", height:"auto"}}>
                     <img
                         className="d-flex justify-content-center"
@@ -68,7 +68,7 @@ const Carrusel = () => {
                 </Carousel.Item>
             </Carousel>
 
-        </>
+        </div>
     )
 }
 

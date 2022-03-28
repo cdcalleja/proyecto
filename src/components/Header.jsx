@@ -11,9 +11,9 @@ import ffxvlogo from "../assets/ffxvlogo.png"
 
 const Header = () => {
     return (
-        <Navbar bg="secondary" expand="lg" style={{display: "flex"}}>
-            <Container style={{display: "flex"}}>
-                <Navbar.Brand href="#home">
+        <Navbar bg="secondary" expand="lg" style={{display: "flex", margin: 0, padding: 0}}>
+            <Container style={{display: "flex", margin: 0, padding: 10}}>
+                <Navbar.Brand href="#home" style={{margin: 0}}>
                     <a href="https://finalfantasyxv.square-enix-games.com/"><img src={ffxvlogo} alt="" /></a>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -31,7 +31,7 @@ const Header = () => {
                             <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
                         </NavDropdown> */}
                         <Form className='d- flex justify-content-end'>
-                            <Form.Group className="mb-3" controlId="formBasicEmail">
+                            <Form.Group className="mb-3" style={{display: "flex", marginLeft: 450}}>
                                 <Form.Control type="text" placeholder="Search" />
                                 <Button variant="success" type="submit">Search</Button>
                             </Form.Group>
