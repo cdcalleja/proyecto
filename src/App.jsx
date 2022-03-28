@@ -10,7 +10,6 @@ function App() {
   return (
 <div style={{backgroundColor: "darkslategrey"}}>
 <Header></Header>
-<br/><br/>
 <Carrusel></Carrusel>
 <br/><br/><br/>
 <Historia></Historia>
