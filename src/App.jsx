@@ -3,6 +3,8 @@ import Carrusel from "./components/Carrusel";
 import Historia from "./components/Historia";
 import Trasfondo from "./components/Trasfondo";
 import Personajes from "./components/Personajes";
+import Flotante from "./components/Flotante";
+import Foot from "./components/Foot";
 
 function App() {
   return (
@@ -16,6 +18,9 @@ function App() {
 <Trasfondo></Trasfondo>
 <br/><br/><br/>
 <Personajes></Personajes>
+<Flotante></Flotante>
+<br /><br />
+<Foot></Foot>
 </div>
 
   );

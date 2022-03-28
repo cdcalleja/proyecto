@@ -11,8 +11,8 @@ import ffxvlogo from "../assets/ffxvlogo.png"
 
 const Header = () => {
     return (
-        <Navbar bg="secondary" expand="lg">
-            <Container>
+        <Navbar bg="secondary" expand="lg" style={{display: "flex"}}>
+            <Container style={{display: "flex"}}>
                 <Navbar.Brand href="#home">
                     <a href="https://finalfantasyxv.square-enix-games.com/"><img src={ffxvlogo} alt="" /></a>
                 </Navbar.Brand>
